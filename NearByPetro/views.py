@@ -11,7 +11,7 @@ def Index(request):
     return render(request,'index.html',context)
 
 def ShowNearByPetro(request):
-    api_key = 'AIzaSyAhb8hmRYw-2idZ4kzgnbXyUw5TawiGKvA'
+    api_key = ''
     result = {}
     data = json.loads(request.body)
 
